@@ -1,6 +1,6 @@
 {
   "name": "@goldix.org/logger-winston-elastic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Logger based on winston-elasticsearch node library",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/demchenkoe/goldix.org-logger-winston-elastic#readme",
   "dependencies": {
-    "@goldix.org/logger-console": "0.0.1",
+    "@goldix.org/logger-console": "0.0.2",
     "winston": "^2.4.2",
     "winston-elasticsearch": "^0.5.9"
   }
