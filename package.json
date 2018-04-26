@@ -1,0 +1,30 @@
+{
+  "name": "@goldix.org/logger-winston-elastic",
+  "version": "0.0.1",
+  "description": "Logger based on winston-elasticsearch node library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demchenkoe/goldix.org-logger-winston-elastic.git"
+  },
+  "keywords": [
+    "goldix.org",
+    "logger",
+    "winston",
+    "elastic"
+  ],
+  "author": "Eugene Demchenko <demchenkoev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demchenkoe/goldix.org-logger-winston-elastic/issues"
+  },
+  "homepage": "https://github.com/demchenkoe/goldix.org-logger-winston-elastic#readme",
+  "dependencies": {
+    "@goldix.org/logger-console": "0.0.1",
+    "winston": "^2.4.2",
+    "winston-elasticsearch": "^0.5.9"
+  }
+}
